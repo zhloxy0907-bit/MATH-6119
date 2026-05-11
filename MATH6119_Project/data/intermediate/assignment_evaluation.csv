@@ -1,0 +1,4 @@
+plan_name,source_template,selection_rule,total_score,coverage_score,e_balance_score,workload_balance_score,feeder_order_score,specialization_score,estimated_workload_range,average_feeder_span,average_head_jump,notes
+assignment_baseline.csv,specialized_machine,highest total score,88.92,100.0,100.0,88.0,67.08,85.0,6,7.33,0.3,Primary candidate selected by weighted evaluation score.
+assignment_balanced.csv,specialized_machine,best workload balance,88.92,100.0,100.0,88.0,67.08,85.0,6,7.33,0.3,Chosen to minimize workload imbalance while keeping full component coverage.
+assignment_feeder_friendly.csv,distributed_e,best feeder continuity,84.53,100.0,100.0,70.0,67.64,85.0,15,7.33,0.25,Chosen to minimize head-order feeder travel under fixed pick order.
